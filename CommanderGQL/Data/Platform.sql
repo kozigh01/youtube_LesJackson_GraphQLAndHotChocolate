@@ -2,6 +2,8 @@ SELECT * FROM [CommandsDB].[dbo].[Platforms]
 
 -- delete from [CommandsDB].[dbo].[Platforms]
 
+SELECT * FROM [CommandsDB].dbo.Platforms
+
 Insert into [CommandsDB].[dbo].[Platforms] (Name, LicenseKey)
 VALUES
     ('Command 1', '1234'),

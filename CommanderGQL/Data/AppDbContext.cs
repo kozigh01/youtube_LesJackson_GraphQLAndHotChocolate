@@ -8,10 +8,7 @@ namespace CommanderGQL.Data
     public DbSet<Platform> Platforms { get; set; }
     public DbSet<Command> Commands { get; set; }
 
-    public AppDbContext(DbContextOptions options): base(options)
-    {
-      
-    }
+    public AppDbContext(DbContextOptions options): base(options) {}
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
